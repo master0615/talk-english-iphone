@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kwv-0b-eSD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="558"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_app_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hKK-Tv-N8G">
+                                        <rect key="frame" x="226" y="205" width="148" height="148"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="hKK-Tv-N8G" secondAttribute="height" multiplier="1:1" id="Bwf-UR-KaZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAw-CF-eLj">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="205"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_app_title.png" translatesAutoresizingMaskIntoConstraints="NO" id="ior-2R-q1c">
+                                                <rect key="frame" x="208" y="77" width="185" height="91"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ior-2R-q1c" secondAttribute="height" multiplier="581:286" id="KpQ-Aj-GBz"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="ior-2R-q1c" firstAttribute="centerX" secondItem="nAw-CF-eLj" secondAttribute="centerX" id="NVX-pc-LYU"/>
+                                            <constraint firstItem="ior-2R-q1c" firstAttribute="centerY" secondItem="nAw-CF-eLj" secondAttribute="centerY" constant="20" id="clx-Mm-exa"/>
+                                        </constraints>
+                                    </view>
+                                    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zdh-Sl-NUo">
+                                        <rect key="frame" x="0.0" y="353" width="600" height="205"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_app_description.png" translatesAutoresizingMaskIntoConstraints="NO" id="dRI-5e-df3">
+                                                <rect key="frame" x="182" y="40" width="236" height="126"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="dRI-5e-df3" secondAttribute="height" multiplier="798:423" id="3B7-aJ-sQ4"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="dRI-5e-df3" firstAttribute="centerX" secondItem="Zdh-Sl-NUo" secondAttribute="centerX" id="5p1-cd-Vvz"/>
+                                            <constraint firstItem="dRI-5e-df3" firstAttribute="centerY" secondItem="Zdh-Sl-NUo" secondAttribute="centerY" id="Lx3-hZ-A59"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="hKK-Tv-N8G" firstAttribute="centerY" secondItem="Kwv-0b-eSD" secondAttribute="centerY" id="1an-Hq-Y1w"/>
+                                    <constraint firstAttribute="trailing" secondItem="nAw-CF-eLj" secondAttribute="trailing" id="2qb-Ge-rx4"/>
+                                    <constraint firstItem="nAw-CF-eLj" firstAttribute="top" secondItem="Kwv-0b-eSD" secondAttribute="top" id="2xc-cN-OZY"/>
+                                    <constraint firstAttribute="bottom" secondItem="Zdh-Sl-NUo" secondAttribute="bottom" id="8Kl-bN-1No"/>
+                                    <constraint firstItem="hKK-Tv-N8G" firstAttribute="top" secondItem="nAw-CF-eLj" secondAttribute="bottom" id="HJ0-cU-k0g"/>
+                                    <constraint firstItem="nAw-CF-eLj" firstAttribute="leading" secondItem="Kwv-0b-eSD" secondAttribute="leading" id="NR6-YK-Xfe"/>
+                                    <constraint firstAttribute="trailing" secondItem="Zdh-Sl-NUo" secondAttribute="trailing" id="OOk-F1-j5f"/>
+                                    <constraint firstItem="ior-2R-q1c" firstAttribute="width" secondItem="hKK-Tv-N8G" secondAttribute="width" multiplier="1.25" id="Oxs-qN-R0q"/>
+                                    <constraint firstItem="Zdh-Sl-NUo" firstAttribute="leading" secondItem="Kwv-0b-eSD" secondAttribute="leading" id="V9t-UO-k6i"/>
+                                    <constraint firstItem="hKK-Tv-N8G" firstAttribute="centerX" secondItem="Kwv-0b-eSD" secondAttribute="centerX" id="a9U-eg-W03"/>
+                                    <constraint firstItem="Zdh-Sl-NUo" firstAttribute="top" secondItem="hKK-Tv-N8G" secondAttribute="bottom" id="nzw-bo-kp2"/>
+                                    <constraint firstItem="hKK-Tv-N8G" firstAttribute="height" secondItem="Kwv-0b-eSD" secondAttribute="height" multiplier="0.265" id="pz1-sT-LIv"/>
+                                    <constraint firstItem="dRI-5e-df3" firstAttribute="width" secondItem="hKK-Tv-N8G" secondAttribute="width" multiplier="1.6" id="tZn-h5-tNj"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8sp-eo-Y7P">
+                                <rect key="frame" x="0.0" y="558" width="580" height="42"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_app_author.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xsc-zB-CEm">
+                                        <rect key="frame" x="388" y="0.0" width="192" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Xsc-zB-CEm" secondAttribute="height" multiplier="634:74" id="Lfv-te-KRT"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Xsc-zB-CEm" secondAttribute="trailing" id="pfO-3N-N2g"/>
+                                    <constraint firstItem="Xsc-zB-CEm" firstAttribute="height" secondItem="8sp-eo-Y7P" secondAttribute="height" multiplier="0.75" constant="1" id="sLO-Rq-Elw"/>
+                                    <constraint firstItem="Xsc-zB-CEm" firstAttribute="top" secondItem="8sp-eo-Y7P" secondAttribute="top" id="ytG-Q7-3M4"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sLO-Rq-Elw"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80784313725490198" green="0.87058823529411766" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8sp-eo-Y7P" secondAttribute="bottom" id="3g8-zD-hPN"/>
+                            <constraint firstItem="Kwv-0b-eSD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Is1-YE-jv2"/>
+                            <constraint firstAttribute="trailing" secondItem="Kwv-0b-eSD" secondAttribute="trailing" id="J84-ee-Oea"/>
+                            <constraint firstItem="Kwv-0b-eSD" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="JuP-hQ-rZb"/>
+                            <constraint firstItem="Xsc-zB-CEm" firstAttribute="width" secondItem="hKK-Tv-N8G" secondAttribute="width" multiplier="1.3" id="Nvk-sS-gLs"/>
+                            <constraint firstItem="8sp-eo-Y7P" firstAttribute="top" secondItem="Kwv-0b-eSD" secondAttribute="bottom" id="e0b-4T-Org"/>
+                            <constraint firstItem="8sp-eo-Y7P" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ePH-X7-kCu"/>
+                            <constraint firstItem="8sp-eo-Y7P" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.07" id="sVa-N6-50G"/>
+                            <constraint firstAttribute="trailing" secondItem="8sp-eo-Y7P" secondAttribute="trailing" constant="20" id="uU9-hb-1ag"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_app_author.png" width="634" height="74"/>
+        <image name="splash_app_description.png" width="798" height="423"/>
+        <image name="splash_app_logo.png" width="500" height="500"/>
+        <image name="splash_app_title.png" width="581" height="286"/>
+    </resources>
+</document>

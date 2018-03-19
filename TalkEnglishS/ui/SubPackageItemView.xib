@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eej-n8-uCB" userLabel="SubPackageItemView" customClass="SubPackageItemView">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="kev-IC-KY8">
+                    <rect key="frame" x="8" y="0.0" width="36" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="36" id="x3f-xI-P50"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.28235294117647058" green="0.29019607843137257" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="753" verticalHuggingPriority="251" horizontalCompressionResistancePriority="753" image="ic_folded@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="T5A-27-7SM">
+                    <rect key="frame" x="284" y="34" width="12" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="12" id="Sdf-LQ-AcO"/>
+                        <constraint firstAttribute="height" constant="12" id="cMp-Yh-ZkY"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="230" verticalHuggingPriority="251" horizontalCompressionResistancePriority="230" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0I-QR-oMg">
+                    <rect key="frame" x="52" y="33" width="31" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="31" id="JTk-C4-lWA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kev-IC-KY8" firstAttribute="top" secondItem="eej-n8-uCB" secondAttribute="top" id="1qN-J0-wYG"/>
+                <constraint firstItem="kev-IC-KY8" firstAttribute="leading" secondItem="eej-n8-uCB" secondAttribute="leading" constant="8" id="DIY-Qj-rfg"/>
+                <constraint firstAttribute="trailing" secondItem="T5A-27-7SM" secondAttribute="trailing" constant="8" id="P5j-DS-aFJ"/>
+                <constraint firstAttribute="bottom" secondItem="kev-IC-KY8" secondAttribute="bottom" id="oQN-KJ-eaH"/>
+                <constraint firstAttribute="centerY" secondItem="T5A-27-7SM" secondAttribute="centerY" id="rsh-GM-WBE"/>
+                <constraint firstItem="q0I-QR-oMg" firstAttribute="leading" secondItem="kev-IC-KY8" secondAttribute="trailing" constant="8" id="x3t-F5-Uwe"/>
+                <constraint firstAttribute="centerY" secondItem="q0I-QR-oMg" secondAttribute="centerY" id="x5k-li-jdx"/>
+                <constraint firstItem="T5A-27-7SM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="q0I-QR-oMg" secondAttribute="trailing" constant="8" id="zVu-1z-0PW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="countLabel" destination="q0I-QR-oMg" id="d6t-Fg-QUo"/>
+                <outlet property="disclosureView" destination="T5A-27-7SM" id="dbj-zT-tKf"/>
+                <outlet property="titleLabel" destination="kev-IC-KY8" id="Lnk-W9-rsY"/>
+            </connections>
+            <point key="canvasLocation" x="224" y="-28"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_folded@3x.png" width="22" height="36"/>
+    </resources>
+</document>

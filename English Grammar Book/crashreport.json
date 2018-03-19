@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "admob-app-id-4353476597",
+  "private_key_id": "8a47b18d386e3d457c67b4107f014acff4dcecb9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDI63/+88dcC4kP\nV99SzPm5+qC4n+6bjQhHe/nwFGTWCwqEc+M5kuko/wfMpIvtqezwfxEj79Z1OMTI\nTDmU5v5ImdeUIkE5wS+MeelepbfpNiRmFw7GQwk9P0Ejdz+ZVInyCqVt5KoPYJa1\nXcC5XzqUOArjoFPau9uGPimfZM4CE4Wveitpl/D4eXtYXb5MDfXW1t2gjslyL1Wi\nSalUirbUYYMtMS4uLvX1xMDWnRJeKMWKQQ6Y6ao6JG/9gp98XoguHTekIqcTTl30\n/uoB2Ba/rJTU8KSlQhTgMdzywtYIgxndNmOXkrcKxzySkCG2Ca3c5L2lxU0fqJnk\nQRrlNUinAgMBAAECggEADjFglcx3sT9ZW72b13gGTgZv0wrtKozQYGhYFAcExn/6\nKrga/YastMorLWAUSGIgDC8VsWGwVxB/Ch0kVinpHYzMhzjSPbexWa2E+DwhnTZH\nZPTNBOFYZjyxJ8W1NuobYn8xB23HO5XZn48zXYTmGPFKh6DcO4/Ypod+njVbPhct\nrC4QLc9NRelc61iBDZt+3J7eiIhu/4OaFW9e0Kc/2KmGf16EKD0B4CeKb7OLBfRP\nu/i0Cc/4U2Eig5d6IneYfI7vpp/cXkX3LxtXbT8Pn9bpzZgOFtTnePlcx9flGVYN\n3SoYaHDbWzeK6fYuyK7CBaL0KHdhGHoCxAPNWNC2dQKBgQD/8SlmC5tbokBvzCcX\nOOJg97R+5/wt7nwEMHIq5SNZh+T/GgQAR1h3xVWzDUsCdoOhIyBIfgVqYZTFWelx\nUz9TX1RjHgbucSlvc69x5jrc4KsXTv+SZm753hMSL63KvH4QQUdbozpV2z29Jayd\nH5+9G+0L9LXeQgPf+jxQmp5GMwKBgQDI9yX6fMnX4Cew50rz0lvbpWQOEy3211wx\nArlQs+nzGs8C0p2nLsxsJzs8Kuv/gmBzxE7O+rxRIn8HI6sAUnGvZNaywuhEawyo\njLpbg6EoyigUg0SBURnQcj7EgIWbAKQBxb2si64TC9IKeIYGGhMx5m7YEpNQdcnt\nlpk+fh+3vQKBgQCSD/YZR3x08gamBrM0XIFM53A5kHjpWZWq6l7tPfFLkfNM5nLs\nGctSJur+kRKCqFH8bshotoquqFu3uNUxmFmmYdwN6L/56djEwxeX/9UN4qWhWrMd\nwJmKvYLSuSUMcz/aVPa9REzxXHpCbLKyxK5rxPkl/pSf77q4Yt1y/ppe4wKBgDru\nTpK/mSjWsIztpksNeqZUP5zo/ueNi5lLpTAHMil5yQ6Y2GY4EPX+Ix6nr4DDqKkJ\n/dowKJzaMsnTKcf0ZSX7ugG9qgK2KYYbjmJbnRyq+0nYnHQXZix78/AHiCZF79Id\nPFumsisfoj4zzYloiAxv+D0gZVaI0+f564Ip1f85AoGBAPf9aD2DoDOfbjMOZSxW\nBezx54SRdcKeDSPWG3yVgJ/tQyIKc7RugFJpI6NfKsRZTks7s6nU5/+N9dsJv6du\n6YbP3GM+c7gYAc1+uNKUfIugBd0uZC2ClaKgcRdH6WUqKWUXtGSZ7h2yW6jcEI9D\nMqdErEN/bT13ngo+t/aLM1O6\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-crashreporting-iwxr1@admob-app-id-4353476597.iam.gserviceaccount.com",
+  "client_id": "113049202056416226556",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-crashreporting-iwxr1%40admob-app-id-4353476597.iam.gserviceaccount.com"
+}
